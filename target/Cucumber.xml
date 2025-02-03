@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="71.387" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Book Bus Ticket on AbhiBus Website" name="Book a bus from Bangalore to Coimbatore" time="71.012">
+<system-out><![CDATA[
+Given I open the AbhiBus website............................................passed
+And I select Bangalore as the from station..................................passed
+And I select Coimbatore as the to station...................................passed
+And I select travel date....................................................passed
+When I click on the Search button...........................................passed
+Then I should be redirected to the AbhiBus search results page..............passed
+And I should see the AbhiBus logo on the page...............................passed
+And I select the seat.......................................................passed
+And I select Majestic as the boarding point.................................passed
+And I select choose seat....................................................passed
+And I Enter name............................................................passed
+And I Enter gender..........................................................passed
+And I Enter number..........................................................passed
+And I Enter email...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
